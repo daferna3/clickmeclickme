@@ -1,17 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>warning</title>
+    <title>click the button</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Oldenburg&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-    <section class="hero">
+    <section class="main">
         <button type="button" id="one">CLICK HERE</button>
     </section>
+
+    <div class="popup" id="popup1">
+        <div id="popup-display">
+            <h1>only click if you are <strong>NOT</strong> procrastinating.</h1>
+            <h2>are you procrastinating?</h2>
+            <button class="option" id="close">YES</button>
+            <button class="option" id="free1">NO</button>
+        </div>
+    </div>
+
+    <div class="popup" id="popup2">
+        <div id="popup-display">
+            <h1>are you sure?</h1>
+            <h2>this isn't worth the time you'd waste!</h2>
+            <button class="option" id="close2">i'm procrastinating</button>
+            <button class="option" id="free2">i'm good</button>
+        </div>
+    </div>
+
+    <div class="popup" id="popup3">
+        <div id="popup-display">
+            <h1>last chance!!!</h1>
+            <h2>be honest!!!!!!!</h2>
+            <button class="option" id="close3">i lied the last 2 times</button>
+            <button class="option" id="free3">really not procrastinating</button>
+        </div>
+    </div>
+
+    <div class="popup" id="popup4">
+        <div id="popup-display">
+            <button class="option" id="linkB">link</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 
     <footer>
 
@@ -30,6 +66,5 @@
     </section>
 
     </footer>
-
 </body>
 </html>
