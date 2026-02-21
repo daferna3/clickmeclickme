@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(199, 159, 222);
+    color: white;
+    margin: 0;
+    font-family: "Oldenburg", serif;
+}
+
+.hero{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.darumadrop-one-regular{
+  font-family: "Darumadrop One", sans-serif;
+  font-weight: 400;
+}
+
+.oldenburg-regular{
+  font-family: "Oldenburg", serif;
+  font-weight: 400;
+}
+
+#one{
+    font-family: "Darumadrop One", sans-serif;
+    text-align: center;
+    padding: 30px;
+    border: none;
+    font-size: 50px;
+    background-color: lightpink;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#faq{
+    padding: 80px 20px;
+    text-align: center;
+    font-family: "Darumadrop One", sans-serif;
+    font-weight: 700;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+#question{
+    font-family: "Darumadrop One", sans-serif;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+#ans{
+    font-family: "Oldenburg", serif;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: rgb(235, 148, 163);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+}
