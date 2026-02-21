@@ -8,4 +8,4 @@ if bee is reading this, yes this is safe and denisse made it CONFIRMED
 how it works:
 - the user clicks the big obvious button with text "CLICK HERE"
 - pop-up pops up and displays text, "only click here if you are NOT procrastinating. are you procrastinating? y/n"
-- after two more similar pop-ups, a button to the link displays. simple 
+- after two more similar pop-ups, a button to the link displays. simple.
